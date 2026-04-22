@@ -1,0 +1,13 @@
+name = "sim-cleaning"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sim-db"
+database_id = "placeholder-update-after-wrangler-d1-create"
+
+[vars]
+NEXT_PUBLIC_SITE_NAME = "SparkleServ"
