@@ -7,7 +7,7 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "sim-db"
-database_id = "placeholder-update-after-wrangler-d1-create"
+database_id = "b5e982ef-fd13-4023-a767-a313ad748fa6"
 
 [vars]
 NEXT_PUBLIC_SITE_NAME = "SparkleServ"
