@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Sparkles } from "lucide-react";
 import { SignupForm } from "./SignupForm";
 
+export const runtime = "edge";
+
 export const metadata = {
   title: "Create Account — SparkleServ",
 };
