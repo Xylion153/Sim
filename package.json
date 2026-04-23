@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run build && wrangler pages dev",
-    "deploy": "npm run build && wrangler pages deploy",
+    "build": "next build",
+    "preview": "npx @cloudflare/next-on-pages && wrangler pages dev",
+    "deploy": "npx @cloudflare/next-on-pages && wrangler pages deploy",
     "start": "next start",
     "lint": "eslint",
     "db:generate": "drizzle-kit generate",
